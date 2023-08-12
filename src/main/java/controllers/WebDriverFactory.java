@@ -1,5 +1,6 @@
 package controllers;
 
+import org.apache.poi.ss.formula.functions.T;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -7,32 +8,36 @@ import org.testng.annotations.BeforeMethod;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+import utils.LoggerUtil;
 
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
 
-public class WebDriverFactory extends BrowserFactory {
+public class WebDriverFactory extends BrowserFactory{
     public static ThreadLocal<WebDriver> wd = new ThreadLocal<WebDriver>();
-    public static String browser;
-    public static String url;
+
+    public ITestResult result; // Declare the ITestResult variable
 
     @BeforeMethod
-    public void beforeMethod() throws Exception {
-        System.out.println("Browser: " + Browser);
-        System.out.println("WebsiteURL: " + WebsiteURL);
+    public void beforeMethod(ITestResult testResult) throws Exception {
+        result = testResult; // Assign the test result to the result variable
+        LoggerUtil.initThreadLocalLogs();
+
         new WebDriverFactory();
         WebDriver driver = WebDriverFactory.createDriver();
         setWebDriver(driver);
     }
 
-    public void setWebDriver(WebDriver driver) {
+    public void setWebDriver(WebDriver driver){
         wd.set(driver);
     }
 
-    public static WebDriver getWebDriver() {
+    public static WebDriver getWebDriver(){
         return wd.get();
     }
+
+
 
     public static void saveFullPageScreenshot(String name) throws IOException {
         Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000))
@@ -48,5 +53,11 @@ public class WebDriverFactory extends BrowserFactory {
                     + result.getMethod().getMethodName() + ".png");
         }
         getWebDriver().quit();
+
+        String capturedLogs = LoggerUtil.getThreadLocalLogs();
+        if (!capturedLogs.isEmpty()) {
+            LoggerUtil.logInfo("Test Steps:\n" + capturedLogs);
+        }
+        LoggerUtil.removeThreadLocalLogs();
     }
 }

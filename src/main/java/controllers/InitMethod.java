@@ -2,25 +2,19 @@ package controllers;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.ISuite;
 import org.testng.ISuiteResult;
 import org.testng.ITestResult;
 import org.testng.asserts.SoftAssert;
+import utils.PropertyReader;
 
-import java.awt.*;
 import java.io.File;
 import java.net.URI;
 
 public class InitMethod {
-    public static ApplicationConfigReader appConfig = new ApplicationConfigReader();
-
-    public static String WebsiteURL = appConfig.getWebsiteUrl();
-    public static String Browser = appConfig.getBrowser();
-    public static int MaxPageLoadTime = appConfig.getMaxPageLoadTime();
-    public static int ImplicitlyWait = appConfig.getImplicitlyWait();
+    public static String baseURL = PropertyReader.readProperties("Url").toLowerCase();
+    public static String browser = PropertyReader.readProperties("Browser").toLowerCase();
+    public static String timeOuts = PropertyReader.readProperties("Timeout").toLowerCase();
 
     public static String FS = File.separator;
 
@@ -38,12 +32,6 @@ public class InitMethod {
     public static String Images = "./src/test/resources/Reports/Images/";
     public static String Videos = "./src/test/resources/Reports/Videos/";
 
-    public static Robot re;
-    public static Alert al;
-    public static String robotImageName;
-    public static Select se;
-    public static String FileToUpload;
-    public static Actions ac;
     public static ITestResult testResult;
     public static SoftAssert softAssert;
     public static ITestResult result;

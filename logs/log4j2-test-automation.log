@@ -1,0 +1,411 @@
+[INFO ] 2023-08-12 16:14:56.512 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 16:15:02.037 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 16:16:37.489 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 16:16:43.514 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 16:31:49.007 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 16:31:49.029 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 16:31:49.861 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 16:31:53.348 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 16:31:55.343 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[ERROR] 2023-08-12 16:32:00.721 [main] ExtentTestNGIReporterListener - Test failed with status: Fail
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:56) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:66) ~[testng-7.7.1.jar:7.7.1]
+	at tests.TestSauceDemo.lowtohigh(TestSauceDemo.java:27) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[INFO ] 2023-08-12 16:32:00.738 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 16:32:00.738 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 16:32:00.738 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 16:37:42.531 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 16:37:42.559 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 16:37:43.442 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 16:37:46.791 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 16:37:48.788 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[ERROR] 2023-08-12 16:37:53.857 [main] ExtentTestNGIReporterListener - Test failed with status: Fail
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:56) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:66) ~[testng-7.7.1.jar:7.7.1]
+	at tests.TestSauceDemo.lowtohigh(TestSauceDemo.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[INFO ] 2023-08-12 16:37:53.870 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 16:37:53.870 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 16:37:53.870 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 16:41:47.811 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 16:41:47.834 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 16:41:50.679 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 16:41:55.036 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 16:42:04.020 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[ERROR] 2023-08-12 16:42:04.378 [main] ExtentTestNGIReporterListener - Test failed with status: Fail
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:56) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:66) ~[testng-7.7.1.jar:7.7.1]
+	at tests.TestSauceDemo.lowtohigh(TestSauceDemo.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[ERROR] 2023-08-12 16:42:04.394 [main] ExtentTestNGIReporterListener - Test failed with status: Skip
+javax.imageio.IIOException: Can't create an ImageOutputStream!
+	at javax.imageio.ImageIO.write(ImageIO.java:1551) ~[?:?]
+	at controllers.WebDriverFactory.saveFullPageScreenshot(WebDriverFactory.java:45) ~[classes/:?]
+	at controllers.WebDriverFactory.afterMethod(WebDriverFactory.java:52) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[INFO ] 2023-08-12 16:42:04.394 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 16:42:04.394 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 17:43:05.294 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 17:43:05.323 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 17:43:08.190 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 17:43:14.342 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:43:23.289 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[ERROR] 2023-08-12 17:43:23.609 [main] ExtentTestNGIReporterListener - Test failed with status: Fail
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:56) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:66) ~[testng-7.7.1.jar:7.7.1]
+	at tests.TestSauceDemo.lowtohigh(TestSauceDemo.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[ERROR] 2023-08-12 17:43:23.619 [main] ExtentTestNGIReporterListener - Test failed with status: Skip
+javax.imageio.IIOException: Can't create an ImageOutputStream!
+	at javax.imageio.ImageIO.write(ImageIO.java:1551) ~[?:?]
+	at controllers.WebDriverFactory.saveFullPageScreenshot(WebDriverFactory.java:45) ~[classes/:?]
+	at controllers.WebDriverFactory.afterMethod(WebDriverFactory.java:52) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[INFO ] 2023-08-12 17:43:23.621 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 17:43:23.621 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 17:44:39.631 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 17:44:39.656 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 17:44:42.592 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 17:44:46.968 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:44:54.344 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[ERROR] 2023-08-12 17:45:03.899 [main] ExtentTestNGIReporterListener - Test failed with status: Fail
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:56) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertTrue(Assert.java:66) ~[testng-7.7.1.jar:7.7.1]
+	at tests.TestSauceDemo.lowtohigh(TestSauceDemo.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[INFO ] 2023-08-12 17:45:03.911 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 17:45:03.912 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 17:45:03.913 [main] ExtentTestNGIReporterListener - Test passed
+[INFO ] 2023-08-12 17:51:15.062 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 17:51:15.081 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 17:51:17.889 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 17:51:21.253 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:51:27.636 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:53:29.621 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 17:53:29.667 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 17:53:32.433 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 17:53:36.735 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:53:40.103 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:53:44.693 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:53:48.061 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:53:52.533 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:53:58.822 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:55:00.580 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 17:55:00.623 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 17:55:03.373 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 17:55:06.726 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:55:10.156 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:55:13.995 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:55:17.340 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:55:22.028 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:55:28.337 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:56:34.173 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 17:56:34.194 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 17:56:37.033 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 17:56:40.235 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:56:43.950 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:56:47.047 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:56:50.722 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 17:56:55.329 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 17:57:01.865 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 18:02:50.190 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 18:02:50.208 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 18:02:52.998 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 18:02:56.387 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 18:02:59.881 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 18:03:04.673 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 18:03:08.148 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 18:03:11.608 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 18:03:17.955 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 18:05:40.014 [main] LoggerUtil - urlTest
+[INFO ] 2023-08-12 18:05:40.029 [main] LoggerUtil - Verifying the result
+[INFO ] 2023-08-12 18:05:42.840 [main] LoggerUtil - Test Steps:
+[INFO] urlTest
+[INFO] Verifying the result
+
+[INFO ] 2023-08-12 18:05:47.808 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 18:05:51.313 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 18:05:55.874 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 18:05:59.295 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+
+[INFO ] 2023-08-12 18:06:03.107 [main] LoggerUtil - lowtohigh
+[INFO ] 2023-08-12 18:06:09.188 [main] LoggerUtil - Test Steps:
+[INFO] lowtohigh
+

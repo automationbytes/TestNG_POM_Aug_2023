@@ -9,6 +9,8 @@ import org.testng.Assert;
 
 import pageObjects.initializePageObjects.PageFactoryInitializer;
 
+import static controllers.WebDriverFactory.getWebDriver;
+
 public class GMailPageObjects extends PageFactoryInitializer
 {
 	@FindBy(xpath="//input[@id='Email']")
